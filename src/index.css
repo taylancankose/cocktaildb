@@ -1,13 +1,127 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: "logo-font";
+  src: url("./images/FloralpersonaluseBold-K7wry.otf");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input{
+  width: 90% !important;
+  height: 60px !important;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+
+::-webkit-input-placeholder { /* Edge */
+  font-size: 1.2rem;
+  
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-size: 1.2rem;
+}
+
+::placeholder {
+  font-size: 1.2rem;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #f77f00 !important;
+}
+
+.nav-text{
+  font-size: 1.5rem !important;
+  font-weight: 400;
+}
+
+.drink-name{
+  color: #003049;
+}
+
+figcaption{
+  font-size: 0.9rem;
+}
+
+
+
+.btn-orange{
+  background-color: #fcbf49;
+  font-weight: bolder;
+}
+
+.text-info{
+  color: #003049 !important;
+}
+
+.instructions{
+  font-size: 1.7rem
+}
+
+.ingredient-card{
+  width: 300px !important;
+  height: 150px;
+}
+
+.ing-img{
+  height: 80px !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.ing-count{
+  font-size: 12px;
+  color: #F77F00 ;
+}
+
+.ing-item{
+  color: #003049;
+  font-size: 1rem;
+}
+
+.logo{
+  font-family: "logo-font";
+}
+
+.cocktail-card{
+  height: 400px;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.cocktail{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
 }
